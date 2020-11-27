@@ -382,6 +382,9 @@ visNetwork(nodes = vis_period1$nodes, edges = vis_period1$edges, width = "100%",
   visOptions(selectedBy = "group") %>%
   visLegend()
 
+kornes_period1 <- coreness(mreza_period1)
+
+kornes_period2 <- coreness(mreza_period2)
 
 #Vizualizacija podele intelektualci - inteligencija
 
